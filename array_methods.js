@@ -17,3 +17,14 @@ console.log(array);
 //   }
 // }
 // console.log(items);
+
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let evenNumberGreaterThanFifteen = numbers
+.map(number => number * 3)
+.filter( number => number % 2 == 0)
+.filter(number => number > 15)
+
+
+console.log(evenNumberGreaterThanFifteen);
